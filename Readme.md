@@ -10,14 +10,16 @@ Our Project focused on studying the brain signals and their ability to control t
 ## Paper & Dataset Description
 
 This study provides a large intuitive dataset for 11 different upper extremity movement tasks obtained during multiple recording
-sessions. The dataset includes 60-channel electroencephalography, 7-channel electromyography, and 4-channel
-electro-oculography of 25 healthy participants collected over 3-day sessions for a total of 82,500 trials across all the
+sessions. The dataset includes 60-channel electroencephalography (EEG), 7-channel electromyography (EMG), and 4-channel
+electro-oculography (EOG) of 25 healthy participants collected over 3-day sessions for a total of 82,500 trials across all the
 participants.
 
 We only worked on the 6 movements of Arm-Reaching [up, down, right, left, forward, backward].
 
-![image]()
+![image](https://github.com/MohamedTharwatElMetwally/Classification-of-Different-Hand-Movements-Using-EEG-Signals/blob/master/assets/trial%20description.png)
 
+
+### References
 
 - You can find the paper we worked on at: &nbsp; https://academic.oup.com/gigascience/article/9/10/giaa098/5918864?login=false#supplementary-data
 - The dataset can be found at: &nbsp; http://gigadb.org/dataset/view/id/100788/Sample_page/3
@@ -27,7 +29,7 @@ We only worked on the 6 movements of Arm-Reaching [up, down, right, left, forwar
 
 ## System Architecture
 
-![image]()
+![image](https://github.com/MohamedTharwatElMetwally/Classification-of-Different-Hand-Movements-Using-EEG-Signals/blob/master/assets/eeg%20system%20architecture.png)
 
 
 ## Methodology 
@@ -44,9 +46,9 @@ We used different machine learning methods such as SVM, Adaboost, Decision Tree,
 
 Also, we used different deep learning architectures such as EEGNET (CNN Architecture), LSTM and different customized CNN architectures.
 
-### EEGNET Architecture :
+### EEGNET Architecture 
   
-![image]()
+![image](https://github.com/MohamedTharwatElMetwally/Classification-of-Different-Hand-Movements-Using-EEG-Signals/blob/master/assets/Overall-visualization-of-the-EEGNet-architecture.png)
 
 
 ## Implementation Results
@@ -55,14 +57,14 @@ Also, we used different deep learning architectures such as EEGNET (CNN Architec
 
 The following Bar chart shows our results when classifying 6 movements for different subjects (`blue`) in comparison with the original Paper (`orange`)
 
-![image]()
+![image](https://github.com/MohamedTharwatElMetwally/Classification-of-Different-Hand-Movements-Using-EEG-Signals/blob/master/assets/intra_subjects.png)
 
 
 ### For Cross-Subjects
 
 The following line chart shows how the performance change when changing the number of classes for cross-subject results
     
-![image]()
+![image](https://github.com/MohamedTharwatElMetwally/Classification-of-Different-Hand-Movements-Using-EEG-Signals/blob/master/assets/cross_subjects.png)
 
 
 ## Deployment 
@@ -73,4 +75,4 @@ The simulator can be found here: &nbsp; https://drive.google.com/file/d/1mrWMTim
 
 ## Demo
 
-![video]()
+https://github.com/MohamedTharwatElMetwally/Classification-of-Different-Hand-Movements-Using-EEG-Signals/assets/99141067/7b23eacd-2fe7-4bab-8ba2-57c71aeeb532
