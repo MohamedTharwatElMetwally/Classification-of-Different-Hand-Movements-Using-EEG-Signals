@@ -1,0 +1,2 @@
+this not a continuous EEG data, but the EEG that has been segmented and saved
+as matlab files.
